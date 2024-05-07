@@ -9,9 +9,8 @@ import App from './App';
 
 const resolveURL = Federated.createURLResolver({
   containers: {
-    rnminiappone: 'http://localhost:8083/[name][ext]',
-    rnminiapptwo: 'http://localhost:8084/[name][ext]',
-    rnsuperapp: 'http://localhost:8081/[name][ext]',
+    rnsuperapp: 'https://dftnd5-ip-119-30-37-203.tunnelmole.net/[name][ext]',
+    rnminiappone: 'https://664d-119-30-37-203.ngrok-free.app/[name][ext]',
   },
 });
 
