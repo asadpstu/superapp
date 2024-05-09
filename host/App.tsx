@@ -10,8 +10,8 @@ import Spinner from 'react-native-loading-spinner-overlay';
 const Dashboard = React.lazy(() => Federated.importModule('rnminiappone', './Dashboard'));
 const MediaPlayer = React.lazy(() => Federated.importModule('rnsuperapp', './MediaPlayer'));
 
-const Cp1Root = React.lazy(() => Federated.importModule('child_app_one', './App'));
-const Cp1Dashboard = React.lazy(() => Federated.importModule('child_app_one', './Dashboard'));
+const Cp1Root = React.lazy(() => Federated.importModule('chorki', './App'));
+const Cp1Dashboard = React.lazy(() => Federated.importModule('chorki', './Dashboard'));
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();

@@ -11,7 +11,8 @@ const resolveURL = Federated.createURLResolver({
   containers: {
     rnsuperapp: 'http://localhost:8081/[name][ext]',
     rnminiappone: 'http://localhost:8083/[name][ext]',
-    child_app_one: 'http://localhost:8084/[name][ext]',
+    //child_app_one: 'http://localhost:8084/[name][ext]',
+    chorki: 'http://localhost:8084/[name][ext]',
   },
 });
 
