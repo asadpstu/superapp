@@ -9,10 +9,10 @@ import App from './App';
 
 const resolveURL = Federated.createURLResolver({
   containers: {
-    rnsuperapp: 'http://localhost:8081/[name][ext]',
-    rnminiappone: 'http://localhost:8083/[name][ext]',
-    //child_app_one: 'http://localhost:8084/[name][ext]',
-    chorki: 'http://localhost:8084/[name][ext]',
+    rnsuperapp: 'https://8381-119-30-46-168.ngrok-free.app/[name][ext]', //ngrok http 8081
+    rnminiappone: 'http://5ixvnm-ip-119-30-37-203.tunnelmole.net/[name][ext]', //tmole 8083
+    chorki: 'http://bore.pub:51066/[name][ext]', //bore local 8084 --to bore.pub
+    child_app_one: 'https://ten-years-camp.loca.lt/[name][ext]' // lt --port 8085
   },
 });
 

@@ -238,6 +238,7 @@ export default (env) => {
         exposes: {
           './App': './App.tsx',
           './MediaPlayer': './MediaPlayer.tsx',
+          './Home': './HomeScreen.tsx',
         },
         shared: {
           react: {

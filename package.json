@@ -13,6 +13,6 @@
     "run:app1:android": "STANDALONE=1 yarn --cwd rn-mini-app-one android",
     "run:app2:ios": "STANDALONE=1 yarn --cwd rn-mini-app-two ios",
     "run:app2:android": "STANDALONE=1 yarn --cwd rn-mini-app-two android",
-    "adbreverse": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:8083 tcp:8083 && adb reverse tcp:8084 tcp:8084"
+    "adbreverse": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:8083 tcp:8083 && adb reverse tcp:8084 tcp:8084 && adb reverse tcp:8085 tcp:8085"
   }
 }
